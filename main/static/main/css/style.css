@@ -1,0 +1,220 @@
+body {
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.navbar {
+    justify-content: left;
+}
+
+.nav-item {
+    color: white;
+}
+
+.nav-item i {
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover {
+    color: #efefef;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 99;
+    top: 61px;
+    left: 0;
+    background-color: #5AA0F1;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    margin: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    border: 1px solid #000000;
+    border-radius: 0.5rem;
+    background-color: white;
+    padding: 5px;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.bg-primary {
+    background-color: #5AA0F1 !important;
+}
+
+#main {
+    transition: margin-left .5s;
+}
+
+.bg-green {
+    background-color: #70FF59;
+    color: white;
+
+}
+
+.bg-orange {
+    background-color: #FFB800;
+    color: white;
+}
+
+.bg-yellow {
+    background-color: #DFFF00;
+    color: black;
+}
+
+.bg-red {
+    background-color: #FF0000;
+    color: white;
+}
+
+.bg-light-green {
+    background-color: #9FE2BF;
+    color: black;
+}
+
+.bg-white {
+    background-color: white;
+    color: black;
+}
+
+.bg-silver {
+    background-color: #C0C0C0;
+    color: white;
+}
+
+.bg-black {
+    background-color: #000000;
+    color: white;
+}
+
+.bg-aqua {
+    background-color: #00FFFF;
+    color: black;
+}
+
+.bg-maroon {
+    background-color: #800000;
+    color: white;
+}
+
+.bg-cyan {
+    background-color: #40E0D0;
+    color: black;
+}
+
+.bg-blue {
+    background-color: #6495ED;
+    color: white;
+}
+
+.bg-purple {
+    background-color: #CCCCFF;
+    color: black;
+}
+
+.btn-secondary {
+    background-color: rgba(90, 160, 241, 0.3);
+    color: black;
+}
+
+hr {
+    margin: 0;
+}
+
+ul .list-item {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0;
+}
+
+.list-item {
+    padding: 1rem;
+    margin-top: .5rem;
+}
+
+.round {
+    position: relative;
+}
+
+.round a {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 28px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 28px;
+}
+
+.round a:after {
+    border: 2px solid #fff;
+    border-top: none;
+    border-right: none;
+    content: "";
+    height: 6px;
+    left: 7px;
+    opacity: 0;
+    position: absolute;
+    top: 8px;
+    transform: rotate(-45deg);
+    width: 12px;
+}
+
+.round input[type="checkbox"] {
+    visibility: hidden;
+    display: none;
+}
+
+.round input[type="checkbox"]:checked + a {
+    background-color: #66bb6a;
+    border-color: #66bb6a;
+}
+
+.round input[type="checkbox"]:checked + a:after {
+    opacity: 1;
+}
+
+td .btn {
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+td .btn:hover {
+    opacity: 80%;
+}
+
+.big-checkbox {
+    width: 40px;
+    height: 40px;
+}
+
+.delete-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 .5rem;
+    margin: 0;
+}
+.delete-btn:hover {
+    text-decoration: none;
+    color: red;
+}
